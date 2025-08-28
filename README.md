@@ -11,6 +11,19 @@ A full‑stack Lost & Found application built with React (Vite) and Tailwind on 
 
 ---
 
+### Screenshots
+
+#### Hero Section
+![Hero Section](./lost%20and%20found%20assigment/client/screenshot/hero-section.png)
+
+#### Item Submission Form
+![Item Form](./lost%20and%20found%20assigment/client/screenshot/item-form.png)
+
+#### Items Display
+![Items List](./lost%20and%20found%20assigment/client/screenshot/items.png)
+
+---
+
 ### Monorepo Layout
 ```
 client/           # Vite + React frontend
