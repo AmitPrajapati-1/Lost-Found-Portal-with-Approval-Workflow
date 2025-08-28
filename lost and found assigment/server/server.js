@@ -30,12 +30,12 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => console.log("✅ Connected to MongoDB"))
-  .catch((err) => console.error("❌ Error connecting to MongoDB:", err));
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Error connecting to MongoDB:", err));
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Hello World! Lost & Found API is running 🚀");
+  res.send("Hello World! Lost & Found API is running");
 });
 
 // Use Routes
