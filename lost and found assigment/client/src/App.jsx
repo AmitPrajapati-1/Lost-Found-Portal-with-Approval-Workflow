@@ -18,7 +18,7 @@ export default function App() {
         <ItemsProvider>
           <div className="min-h-screen bg-gray-50">
             <Navbar />
-            <main>
+            <main> 
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/login" element={<Login />} />
@@ -40,7 +40,7 @@ export default function App() {
                   } 
                 />
               </Routes>
-            </main>
+            </main> 
             <Toaster
               position="top-center"
               containerStyle={{ top: '50%', transform: 'translateY(-50%)' }}
@@ -49,7 +49,7 @@ export default function App() {
                 style: {
                   background: '#363636',
                   color: '#fff',
-                },
+                }, 
               }}
             />
           </div>
