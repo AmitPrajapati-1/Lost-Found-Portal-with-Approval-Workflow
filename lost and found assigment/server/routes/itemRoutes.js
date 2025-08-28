@@ -14,16 +14,16 @@ const { protect } = require("../middleware/authMiddleware");
 // Report a new item
 router.post("/", protect, reportItem);
 
-// Get all items (admin/debug)
+// Get all items (admin/debug)  
 router.get("/", protect, getAllItems);
 
-// Get approved items (public)
+// Get approved items (public)  
 router.get("/approved", getApprovedItems);
 
 // Get item by ID
 router.get("/:id", getItemById);
 
-// Update item (approve/reject)
+// Update item (approve/reject)  
 router.put("/:id", protect, updateItem);
 
 // Delete item
