@@ -15,7 +15,7 @@ export function Login() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setLoading(true);
+    setLoading(true)
     setError('');
 
     try {
@@ -45,7 +45,7 @@ export function Login() {
         <p className="mt-2 text-center text-sm text-gray-600">
           Or{' '}
           <Link to="/register" className="font-medium text-blue-600 hover:text-blue-500">
-            create a new account
+           Create new Account
           </Link>
         </p>
       </div>
